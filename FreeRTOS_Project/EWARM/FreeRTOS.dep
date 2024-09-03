@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>750899853</fileChecksum>
+    <configuration>
+        <name>FreeRTOS</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\Src\main.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32wbaxx_hal_msp.c</file>
+            <file>$PROJ_DIR$\..\Drivers\BSP\STM32WBAxx_Nucleo\stm32wbaxx_nucleo.c</file>
+            <file>$PROJ_DIR$\startup_stm32wba55xx.s</file>
+            <file>$PROJ_DIR$\..\Src\stm32wbaxx_it.c</file>
+            <file>$PROJ_DIR$\..\Src\system_stm32wbaxx.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_adc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_adc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_dma.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_exti.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_dma_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_flash_ex.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_usart.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_uart.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_rng_ex.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_adc_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_tim.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_icache.o</file>
+            <file>$PROJ_DIR$\..\freertos\portable\IAR\ARM_CM33_NTZ\non_secure\portmacrocommon.h</file>
+            <file>$PROJ_DIR$\..\freertos\include\mpu_wrappers.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_i2c.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\port.o</file>
+            <file>$PROJ_DIR$\..\freertos\portable\IAR\ARM_CM33_NTZ\non_secure\portasm.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_irda.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_rtc.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\..\freertos\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\..\Drivers\BSP\STM32WBAxx_Nucleo\stm32wbaxx_nucleo_errno.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\BSP\STM32WBAxx_Nucleo\stm32wbaxx_nucleo.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_rng.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\event_groups.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_gpio_ex.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Application\EWARM\startup_stm32wba55xx.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_gpio.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_pcd_ex.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_dma.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Exe\FreeRTOS.out</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_dma_ex.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_exti.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\freertos\include\portable.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_spi_ex.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Application\User\stm32wbaxx_hal_msp.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\..\freertos\include\list.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_iwdg.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\freertos\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\..\freertos\include\task.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_pcd.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal.o</file>
+            <file>$PROJ_DIR$\stm32wba55xx_flash.icf</file>
+            <file>$PROJ_DIR$\..\Inc\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_usart_ex.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_flash.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm33.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_adc.o</file>
+            <file>$PROJ_DIR$\..\freertos\portable\IAR\ARM_CM33_NTZ\non_secure\portmacro.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\FreeRTOS_Project\freertos\portable\IAR\ARM_CM33_NTZ\non_secure\portmacrocommon.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\queue.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_icache.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_rcc_ex.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_flash.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Application\User\stm32wbaxx_it.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_uart_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_flash_ex.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\list.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\FreeRTOS_Project\freertos\portable\IAR\ARM_CM33_NTZ\non_secure\portmacro.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\mpu_armv8.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\CMSIS\system_stm32wbaxx.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_i2c_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_ll_rcc.h</file>
+            <file>$PROJ_DIR$\..\Inc\stm32wbaxx_hal_conf.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_rtc_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32WBAxx\Include\system_stm32wbaxx.h</file>
+            <file>$PROJ_DIR$\..\freertos\include\croutine.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_def.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\freertos\include\projdefs.h</file>
+            <file>$PROJ_DIR$\..\Inc\stm32wbaxx_it.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_rcc_ex.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\tasks.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32WBAxx\Include\stm32wba55xx.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32WBAxx\Include\stm32wbaxx.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_cortex.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_pwr_ex.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_exti.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\portasm.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Application\User\main.o</file>
+            <file>$PROJ_DIR$\..\freertos\include\timers.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\croutine.o</file>
+            <file>$PROJ_DIR$\..\freertos\include\stack_macros.h</file>
+            <file>$PROJ_DIR$\..\Drivers\BSP\STM32WBAxx_Nucleo\stm32wbaxx_nucleo.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\heap_4.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Exe\FreeRTOS.hex</file>
+            <file>$PROJ_DIR$\..\freertos\include\queue.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\FreeRTOS_Project\Inc\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\List\FreeRTOS.map</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_rcc.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\stream_buffer.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\timers.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_pka.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_tim_ex.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_pwr.h</file>
+            <file>$PROJ_DIR$\..\Inc\main.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Application\EWARM\startup_stm32wba55xx.o.rsp</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_dma.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_spi.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_lptim.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\..\Inc\stm32wbaxx_nucleo_conf.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_wwdg.o</file>
+            <file>$PROJ_DIR$\..\freertos\list.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_tim.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_i2c_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_icache.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_usart.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_irda.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_pcd_ex.c</file>
+            <file>$PROJ_DIR$\..\freertos\croutine.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_pwr_ex.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_i2c.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_wwdg.c</file>
+            <file>$PROJ_DIR$\..\freertos\include\stream_buffer.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_iwdg.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_spi.c</file>
+            <file>$PROJ_DIR$\..\freertos\portable\MemMang\heap_4.c</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\freertos\portasm.o.rsp</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\Obj\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_dma_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_lptim.c</file>
+            <file>$PROJ_DIR$\..\freertos\include\event_groups.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_uart.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rng_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_pwr_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\freertos\tasks.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_spi_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_usart_ex.c</file>
+            <file>$PROJ_DIR$\..\freertos\event_groups.c</file>
+            <file>$PROJ_DIR$\..\freertos\timers.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_uart_ex.c</file>
+            <file>$PROJ_DIR$\..\freertos\portable\IAR\ARM_CM33_NTZ\non_secure\port.c</file>
+            <file>$PROJ_DIR$\..\freertos\portable\IAR\ARM_CM33_NTZ\non_secure\portasm.s</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_pcd.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rtc_ex.c</file>
+            <file>$PROJ_DIR$\..\freertos\stream_buffer.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_tim_ex.c</file>
+            <file>$PROJ_DIR$\..\freertos\queue.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rng.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_pka.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rtc.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 79 68 110 32 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 60 124 86 134 54 31 51 24 45 92 55 107</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32wbaxx_hal_msp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 110 32 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 124 86 134</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\BSP\STM32WBAxx_Nucleo\stm32wbaxx_nucleo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 102 44 101 135 127 91 73 83 110 32 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86 134</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32wba55xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 129</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32wbaxx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 110 32 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 124 86 93 134</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\system_stm32wbaxx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_adc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_dma_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 41 116</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\Exe\FreeRTOS.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 21 121 126 151 59 37 106 47 75 33 82 58 65 18 133 40 160 104 62 115 56 25 84 22 28 52 132 57 39 120 50 103 49 72 34 17 29 87 131 46 20 30 16 76 15 61 136 108 35 111 78 26 105 69 118 96 119</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\Exe\FreeRTOS.hex</name>
+            <inputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\freertos\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 53 135 127 128 91 73 83 79 68 60 54 31 51 24 45 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_i2c_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_icache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_irda.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_pcd_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\freertos\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 135 127 91 73 83 79 68 60 54 89 31 51 24 45 92 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\freertos\portable\MemMang\heap_4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 53 48 135 127 128 70 91 73 83 79 68 60 54 31 51 24 45 92 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_lptim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rng_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_pwr_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\freertos\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 53 48 135 127 128 70 91 73 83 79 68 60 54 31 51 24 45 92 109 55 107</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_spi_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_usart_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\freertos\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 53 135 127 128 91 73 83 79 68 60 54 31 162 51 24 45 92 55 107</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\freertos\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 53 135 127 128 91 73 83 79 68 60 54 31 51 24 45 92 113 55 107</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_uart_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\freertos\portable\IAR\ARM_CM33_NTZ\non_secure\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 135 127 91 73 83 60 54 31 51 24 45 92 55 27 66 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\freertos\portable\IAR\ARM_CM33_NTZ\non_secure\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 114 158</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_pcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rtc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\freertos\stream_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 48 135 127 70 91 73 83 79 68 60 54 31 51 24 45 92 153 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\freertos\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 53 48 135 127 128 70 91 73 83 79 68 60 54 31 51 24 45 92 113 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rng.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_pka.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 95 100 67 44 101 135 127 91 73 83 97 98 88 80 63 157 64 81 125 19 99 90 130 42 43 74 77 38 36 71 123 148 117 94 138 122 85 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>
