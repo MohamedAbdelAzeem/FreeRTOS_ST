@@ -11,17 +11,15 @@ on:
   workflow_run:
     workflows: ["Echo Job"]
     types:
+      - success    # Trigger only when the workflow has completed successfully
     #  - completed  # Trigger when the workflow has completed, regardless of the outcome (success, failure, or cancelled)
-       - success    # Trigger only when the workflow has completed successfully
     #  - failure    # Trigger only when the workflow has failed
     #  - cancelled  # Trigger only when the workflow has been cancelled
 
 jobs:
   dependent-job:
     runs-on: ubuntu-latest
-
    # if: ${{ github.event.workflow_run.conclusion == 'success' }}
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
