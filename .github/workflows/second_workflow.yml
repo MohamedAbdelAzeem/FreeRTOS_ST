@@ -1,4 +1,4 @@
-name: Second Workflow
+name: Dependent Workflow
 
 # This GitHub Actions workflow is triggered by the completion of another workflow.
 # The 'on' key specifies the event that will trigger the workflow.
@@ -7,22 +7,35 @@ name: Second Workflow
 # In this case, the workflow named "Echo Job" will trigger this workflow upon its completion.
 # The 'types' key specifies the types of activity that will trigger the workflow.
 # Here, the workflow will be triggered when the "Echo Job" workflow has completed.
+#
+#If you specify multiple workflows // workflows: [Staging, Lab] for the workflow_run event, only one of the workflows needs to run. 
+#For example, a workflow with the following trigger will run whenever the "Staging" workflow or the "Lab" workflow completes.
 on:
   workflow_run:
-    workflows: ["Echo Job"]
+    workflows: ["Echo Job"] 
     types:
-      - success    # Trigger only when the workflow has completed successfully
-    #  - completed  # Trigger when the workflow has completed, regardless of the outcome (success, failure, or cancelled)
-    #  - failure    # Trigger only when the workflow has failed
-    #  - cancelled  # Trigger only when the workflow has been cancelled
+      - completed  # Trigger when the workflow has completed
+    #  - requested    # Trigger only when the workflow has failed
+    #  - in_progress  # Trigger only when the workflow has been cancelled
+#   branches: [canary] # Trigger the workflow only when the 'canary' branch is pushed to
 
 jobs:
-  dependent-job:
-    runs-on: ubuntu-latest
-   # if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+   on-success:
+      runs-on: ubuntu-latest
+      if: ${{ github.event.workflow_run.conclusion == 'success' }}
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Run dependent script
-      run: echo "This runs after the first workflow succeeds!"
+      - name: Run dependent script
+        run: echo "This runs after the first workflow succeeds!"
+
+    on-Failure:
+      runs-on: ubuntu-latest
+      if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run dependent script
+        run: echo "This runs after the first workflow Failed!!!!!"
