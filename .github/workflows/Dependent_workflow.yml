@@ -20,7 +20,7 @@ on:
 #   branches: [canary] # Trigger the workflow only when the 'canary' branch is pushed to
 
 jobs:
-   on-success:
+   on_success:
       runs-on: ubuntu-latest
       if: ${{ github.event.workflow_run.conclusion == 'success' }}
       steps:
@@ -30,7 +30,7 @@ jobs:
       - name: Run dependent script
         run: echo "This runs after the first workflow succeeds!"
 
-    on-Failure:
+   on_failure:
       runs-on: ubuntu-latest
       if: ${{ github.event.workflow_run.conclusion == 'failure' }}
       steps:
