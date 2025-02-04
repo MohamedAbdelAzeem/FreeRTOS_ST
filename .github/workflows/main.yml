@@ -1,0 +1,15 @@
+name: Echo Job  # Defines the name of the GitHub Actions workflow
+
+on: [push]  # Specifies that the workflow will run on push events
+
+jobs:  # Defines the jobs that will be run as part of the workflow
+  echo-job:  # Names the job 'echo-job'
+    runs-on: ubuntu-latest  # Specifies the job will run on the latest version of Ubuntu
+
+    steps:  # Lists the steps to be executed in the job
+      - name: Checkout repository  # Names the step 'Checkout repository'
+        uses: actions/checkout@v2  # Uses the 'actions/checkout' action at version 2 to checkout the repository
+
+      - name: Run echo command  # Names the step 'Run echo command'
+        run: |
+          echo "Hello, FreeRTOS!" 
