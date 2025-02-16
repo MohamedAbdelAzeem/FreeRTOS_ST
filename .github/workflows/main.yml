@@ -27,7 +27,9 @@ jobs:  # Defines the jobs that will be run as part of the workflow
 
     steps:  # Lists the steps to be executed in the job
       - name: Checkout repository  # Names the step 'Checkout repository'
-        uses: actions/checkout@v2  # Uses the 'actions/checkout' action at version 2 to checkout the repository
+        uses: actions/checkout@v2  #checkout the repository
+        with:
+          ref: ${{ github.ref }}  # Dynamically sets the branch based on the event
 
       - name: Run echo command  # Names the step 'Run echo command'
         run: |
