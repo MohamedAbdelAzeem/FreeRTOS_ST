@@ -6,17 +6,7 @@ name: Echo Job  # Defines the name of the GitHub Actions workflow
 # - schedule: To run the workflow on a scheduled interval using cron syntax
 # - workflow_dispatch: To allow manual triggering of the workflow
 # - release: To run the workflow on release events
-# - issues: To run the workflow on issue events
-# - issue_comment: To run the workflow on issue comment events
-# - pull_request_review: To run the workflow on pull request review events
-# - pull_request_review_comment: To run the workflow on pull request review comment events
 # - push: To run the workflow on push events
-# - create: To run the workflow on create events (e.g., branch or tag creation)
-# - delete: To run the workflow on delete events (e.g., branch or tag deletion)
-# - fork: To run the workflow on fork events
-# - gollum: To run the workflow on wiki page events
-# - watch: To run the workflow on star events
-# - workflow_run: To run the workflow when another workflow run is completed
 on: [push]  # Specifies that the workflow will run on push events
 
 jobs:  # Defines the jobs that will be run as part of the workflow
